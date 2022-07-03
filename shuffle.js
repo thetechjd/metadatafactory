@@ -29,7 +29,7 @@ while (files.length != 0) {
     console.log(y);
 
 
-    rename(old + files[y], old + "" + String(counter) + ".json", (err) => {
+    rename(old + files[y], old + "" + String(counter) + ".jpg", (err) => {
         if (err) console.log(err)
     })
 

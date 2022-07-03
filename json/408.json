@@ -1,0 +1,8 @@
+{
+  "name": "Colors #408",
+  "description": "Collection of 552 colors.",
+  "image": "ipfs://QmbcuwHPd2DqMmcxhKhSfBjtKzfTFXD8CZAoZPxabJ52qp/408.jpg",
+  "seller_fee_basis_points": 750,
+  "fee_recipient": "0xc94888E885736161991C8052E9b277F72d2CcDFe",
+  "compiler": "MetaDataFactory"
+}

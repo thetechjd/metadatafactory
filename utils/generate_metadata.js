@@ -65,11 +65,11 @@ const saveMetadata = (_loadedImageObject) => {
         name: `${namePrefix} #${shortName}`,
         description: description,
         //change to png if necessary
-        image: `${baseUri}/${shortName}.png`, //.gif
+        image: `${baseUri}/${shortName}.jpg`, //.gif
         //attributes: "",
         //color: color[2],
-        //seller_fee_basis_points: sellerFee,
-        //fee_recipient: feeRecipient,
+        seller_fee_basis_points: sellerFee,
+        fee_recipient: feeRecipient,
         compiler: "MetaDataFactory",
     };
     fs.writeFileSync(

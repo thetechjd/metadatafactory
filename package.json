@@ -1,0 +1,29 @@
+{
+    "name": "metadatafactory",
+    "version": "1.1.1",
+    "description": "create metadata for images",
+    "main": "index.js",
+    "bin": "index.js",
+    "pkg": {
+        "assets": [
+            "layers/**/*",
+            "node_modules/**/*",
+            "src/**/*"
+        ]
+    },
+    "scripts": {
+        "build": "node shuffle.js && node index.js",
+        "make": "node index.js",
+        "shuffle": "node shuffle.js",
+        "shufflemax": "node shufflemax.js",
+        "update_info": "node utils/update_info.js",
+        "generate_metadata": "node utils/generate_metadata.js"
+    },
+    "author": "The Tech JD",
+    "license": "MIT",
+    "dependencies": {
+        "sha1": "^1.1.1",
+        "canvas": "^2.8.0",
+        "web3": "1.0.0-beta.55"
+    }
+}
